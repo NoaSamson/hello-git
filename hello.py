@@ -5,3 +5,7 @@ datetime1 = datetime.datetime.now()
 formatted = datetime1.strftime("%d.%m.%Y.")
 
 print(formatted)
+
+print("\n" + "What's your name?")
+name = input()
+print("Hello, " + name + "!")
