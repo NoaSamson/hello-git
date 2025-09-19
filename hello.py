@@ -9,3 +9,7 @@ print(formatted)
 print("\n" + "What's your name?")
 name = input()
 print("Hello, " + name + "!")
+
+print(1)
+print(2)
+print(3)
