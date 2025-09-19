@@ -1,0 +1,14 @@
+git bisect start
+# status: waiting for both good and bad commits
+# bad: [e84e9c974f1a11f8682cd8a050359a6702f8bc98] Sixth test commit.
+git bisect bad e84e9c974f1a11f8682cd8a050359a6702f8bc98
+# status: waiting for good commit(s), bad commit known
+# good: [29fc81a7eccb115bcdc4473470e0130d9e931d15] Merge pull request #1 from NoaSamson/feature/multiply
+git bisect good 29fc81a7eccb115bcdc4473470e0130d9e931d15
+# bad: [55e59b4cc86ef63f45360b3be5fc3f5bd3c07b7c] Third test commit.
+git bisect bad 55e59b4cc86ef63f45360b3be5fc3f5bd3c07b7c
+# bad: [f5d37b1d09d69408ef5111402f19eb71dbaced05] Second test commit.
+git bisect bad f5d37b1d09d69408ef5111402f19eb71dbaced05
+# bad: [990bf24e24e1f1109c656de55ee02a640b01c17b] First test commit
+git bisect bad 990bf24e24e1f1109c656de55ee02a640b01c17b
+# first bad commit: [990bf24e24e1f1109c656de55ee02a640b01c17b] First test commit
