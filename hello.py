@@ -9,6 +9,3 @@ print(formatted)
 print("\n" + "What's your name?")
 name = input()
 print("Hello, " + name + "!")
-
-# Fixed a typo...
-# Tralalero Tralala
